@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*导航*/
+.qq-nav {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background: url(../images/nav_bg.png) repeat-x;
+}
+
+.qq-nav .wrapper {
+    width: 1080px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.qq-nav .logo {
+    float: left;
+    width: 100px;
+    height: 75px;
+    background: url(../images/nav_brand.png) no-repeat center;
+}
+
+.qq-nav .nav {
+    float: left;
+}
+
+.qq-nav .nav li {
+    float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 75px;
+}
+
+.qq-nav .nav li.active,
+.qq-nav .nav li:hover {
+    background: #12b7f5;
+}
+
+.qq-nav .nav li a {
+    display: block;
+    padding: 0 20px;
+}
+
+.qq-nav .register {
+    float: right;
+    width: 96px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    color: #fff;
+    background: #12b7f5;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.qq-nav .other {
+    float: right;
+    width: 250px;
+    height: 75px;
+}
+
+.qq-nav .other ul {
+    float: right;
+}
+
+.qq-nav .other ul li {
+    float: right;
+    margin-left: 40px;
+}
+
+.qq-nav .other ul li a {
+    font-size: 14px;
+    text-shadow: 0 0 2px #333;
+    height: 50px;
+    line-height: 50px;
+}
+
+.qq-nav .other span {
+    float: right;
+}
+
+/*产品*/
+.qq-banner {
+    height: 880px;
+    background: url(../images/banner-bg.jpg) no-repeat center top;
+    padding-top: 150px;
+}
+
+.qq-banner img {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.qq-banner img:last-child {
+    width: 100%;
+}
+
+/*音乐*/
+.qq-sound h1 {
+    height: 300px;
+    background: url(../images/sound-text.png) no-repeat center/cover;
+    font-size: 0;
+}
+
+.qq-sound .bg {
+    height: 500px;
+    background: url(../images/sound-bg.jpg) no-repeat center/cover;
+}
+
+.qq-sound .content {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.qq-sound .phone {
+    position: absolute;
+    left: 0;
+    top: -200px;
+    width: 700px;
+    height: 700px;
+    background: url(../images/sound-phone.png) no-repeat center top/cover;
+}
+
+.qq-sound .content h2 {
+    float: right;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.qq-sound .content p {
+    float: right;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+    text-align: right;
+}
+
+/*文件*/
+.qq-file .bg {
+    height: 500px;
+    background: url(../images/file-bg.jpg) no-repeat center/cover;
+}
+
+.qq-file .content {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.qq-file .content h2 {
+    float: left;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.qq-file .content p {
+    float: left;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+    text-align: left;
+}
+
+.qq-file .mac {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 600px;
+    height: 340px;
+    background: url(../images/file-mac.png) no-repeat center top/cover;
+}
+
+/*兴趣*/
+.qq-interest .bg {
+    height: 500px;
+    background: url(../images/interest-bg.jpg) no-repeat center/cover;
+}
+
+.qq-interest .content {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.qq-interest .phone {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 350px;
+    height: 500px;
+    background: url(../images/interest-phone.png) no-repeat center top/cover;
+}
+
+.qq-interest .content h2 {
+    float: right;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.qq-interest .content p {
+    float: right;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+    text-align: right;
+}
+
+/*底部*/
+.newfoot {
+    width: 100%;
+    height: 348px;
+    padding-top: 34px;
+    background: #2a2a2a;
+    font-size: 0.75em;
+}
+
+.newfoot a:link,
+.newfoot a:visited {
+    color: #979797;
+}
+
+.newfoot a:hover {
+    color: #cfcfcf;
+}
+
+.qmaps {
+    width: 960px;
+    height: 205px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub-list {
+    position: absolute;
+    right: -55px;
+    top: 25px;
+}
+
+.plats {
+    float: left;
+    width: 510px;
+    padding-left: 8px;
+}
+
+.plats h3 {
+    height: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.plats a {
+    float: left;
+    padding-top: 65px;
+    background: transparent url(//sqimg.qq.com/qq_product_operations/im/2015/plats1.png) no-repeat 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.plats a:hover {
+    color: #12b7f5;
+}
+
+.plats a.plmb {
+    width: 80px;
+    margin-right: 35px;
+    background-position: 0px 0;
+}
+
+.plats a.plmb:hover {
+    background-position: 0px -93px;
+}
+
+.plats a.plpc {
+    width: 80px;
+    margin-right: 30px;
+    background-position: -105px 0;
+}
+
+.plats a.plpc:hover {
+    background-position: -105px -93px;
+}
+
+.plats a.plmac {
+    width: 84px;
+    margin-right: 30px;
+    background-position: -210px 0;
+}
+
+.plats a.plmac:hover {
+    background-position: -210px -93px;
+}
+
+.plats a.plpad {
+    width: 76px;
+    background-position: -326px 0;
+}
+
+.plats a.plpad:hover {
+    background-position: -326px -93px;
+}
+
+.map {
+    float: left;
+}
+
+.map h3 {
+    height: 25px;
+    color: #666;
+    font-size: 14px;
+}
+
+.map li {
+    line-height: 22px;
+}
+
+.qac {
+    width: 185px;
+}
+
+.qfaq {
+    width: 175px;
+}
+
+.qlink {
+    width: 80px;
+}
+
+.copyright {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 16px;
+    border-top: 1px solid #666;
+    line-height: 17px;
+    text-align: center;
+    color: #666;
+}
+
+.login_div {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 622px;
+    height: 368px;
+    margin: -184px 0 0 -311px;
+    z-index: 99999;
+}
+
+#pg2 .qfileWrap .pic1 {
+    opacity: 1;
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -o-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: zoomIn 0.2s ease 0.1s;
+    -moz-animation: zoomIn 0.2s ease 0.1s;
+    -o-animation: zoomIn 0.2s ease 0.1s;
+    animation: zoomIn 0.2s ease 0.1s;
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
